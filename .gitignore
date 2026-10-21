@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js Build Output
+.next/
+out/
+build/
+dist/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+
+# Secrets, Credentials & Private Keys (CRITICAL: DO NOT COMMIT)
+.env
+.env*.local
+*.env
+credentials.json
+token.json
+agentic-project1-*.json
+*service_account*.json
+
+# Local Vector Databases & Caches
+chroma_db/
+*.db
+*.sqlite3
+
+# IDE & OS generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.agents/
